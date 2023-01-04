@@ -5,6 +5,8 @@ from datetime import datetime
 now=datetime.now()
 current_time=now.strftime("%H:%M:%S")
 
+# Tokens in previous commit are decomissioned
+
 api_key="[INSERT AS STRING]"
 api_key_secret="[INSERT AS STRING]"
 btoken="[INSERT AS STRING]"
