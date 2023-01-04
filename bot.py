@@ -5,11 +5,11 @@ from datetime import datetime
 now=datetime.now()
 current_time=now.strftime("%H:%M:%S")
 
-api_key="hQDIbYe8CBWJV83NFx1aWyvI3"
-api_key_secret="eEGMT6XqBdHZy5680iniZVcDG2DyQ78BbTjkG8T1iknI3hkrZx"
-btoken="AAAAAAAAAAAAAAAAAAAAAMUjZgEAAAAA16Y3XYIIK%2BR5%2FBjYBoxTvvRxmgA%3DTFGrGxFzYWealDToKT0W5AZOFhiTLlVD0Yg4Lf9fz3bA0Ptpam"
-Atoken="1496292699372204032-ZKLEUDUPEoOG7kWIJVCF8Gi2W0oEkr"
-Atoken_secret="LTuOHPFHaBS0ex7CkFS0Mie4XTfeZ5TZJpikG50wINurV"
+api_key="[INSERT AS STRING]"
+api_key_secret="[INSERT AS STRING]"
+btoken="[INSERT AS STRING]"
+Atoken="[INSERT AS STRING]"
+Atoken_secret="[INSERT AS STRING]"
 
 auth = tweepy.OAuthHandler(api_key,api_key_secret)
 auth.set_access_token(Atoken,Atoken_secret)
